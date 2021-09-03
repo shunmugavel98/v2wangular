@@ -1,0 +1,104 @@
+
+nav {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0px 2px 5px rgba(240, 222, 188, 0.2);
+  }
+  
+  
+  .navbar {
+    margin-bottom: 2px !important;
+  }
+.nav-item a{
+   font-size: 16px;
+   font-weight: bold;
+   color: #071d49;
+   font-family: "AvenirLTStd-Book","Arial",sans-serif;
+}
+
+ .nav-item a:hover{
+    color: rgb(250, 11, 11);
+}
+.navbar-toggler{
+    position: absolute;
+    top: .40rem;
+    left: 0.5rem;
+}
+.home-nav {
+    width: max-content;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block !important;
+}
+.home-dropdown .dropdown-menu.show {
+    display: none !important;
+}
+.logo-nav {
+    width: 5.5%;
+	height: 5.5%;
+}
+.navbar-logo{
+    font-weight: bold;
+    font-size: 16px;
+    color: #071d49;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+}
+.navbar-logo1{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #071d49;
+}
+.phone-icon{
+    display: none;
+}
+.s1{
+    color: #071d49;
+    font-size: 16px;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+}
+
+@media (max-width: 400px) {
+    .navbar-toggler{
+       float: left;
+        margin-top: 5px;
+        display: flex;
+    } 
+    .logo-nav {
+        margin-left: 64px;
+        width: 15%;
+        height: 15%;
+    }
+    .phone-icon{
+        position: absolute;
+        top: -3rem;
+        right: -20rem;
+        display: block;
+        width: 44px;
+        height: 44px;
+        background-image: url(/assets/img/mobile.png);
+        background-repeat: no-repeat;
+        background-size: 36% auto;
+        background-position: 13px 0;
+    }
+    
+    .dropdown1{
+      
+        margin-left: 250px;
+        background-image: url(/assets/img/mobile.png); 
+        background-repeat: no-repeat;
+        display: block;
+        width: 40px;
+        height: 35px;
+        background-size: 36% auto;
+        background-position: 13px 0;
+    }
+    .ad{
+      
+        font-weight: bold;
+        color: #071d49;
+    }
+
+}

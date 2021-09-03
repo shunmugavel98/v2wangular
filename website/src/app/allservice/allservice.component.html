@@ -1,0 +1,73 @@
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <div class="col-md-offset-1 logo">
+        <a class="navbar-brand" routerLink=""><img class="logo-nav" src="assets/img/img.png"><span class="navbar-logo">Village to World</span></a> 
+        
+      </div> <a href="" class="navbar-toggler" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          (click)="collapsed = !this.collapsed">
+          <span class="navbar-toggler-icon"></span>
+          </a>
+          
+          <div
+          id="navbarSupportedContent"
+          [ngClass]="{ collapse: collapsed, 'navbar-collapse': true }">
+          <!-- right nav menus -->
+        
+          <ul class="home-nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a routerLink="/home" class="nav-link" (click)="collapsed = true">HOME</a>
+            </li>
+            
+            <li ngbDropdown class="nav-item dropdown home-dropdown">
+              <a ngbDropdownToggle class="nav-link dropdown-toggle"  id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="true">
+               SERVICES
+              </a>
+              <div ngbDropdownMenu class="dropdown-menu"(click)="collapsed = true" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item s1" routerLink="/supply">Supply Chain Management</a>
+                <a class="dropdown-item s1" routerLink="/product">Product Development</a>
+                <a class="dropdown-item s1" routerLink="/web">Web Development</a>
+                <a class="dropdown-item s1" routerLink="/poc">Poc As A Services</a>
+                <a class="dropdown-item s1" routerLink="/qa">QA Services</a>
+                <a class="dropdown-item s1" routerLink="/software">Software Integration</a>
+              </div>
+            </li>
+           
+        
+            <li  class="nav-item">
+              <a routerLink="/careers" (click)="collapsed = true" class="nav-link">CAREERS</a>
+             </li>
+            
+            <li class="nav-item">
+              <a routerLink="/about" (click)="collapsed = true" class="nav-link">WHY V2W</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="/customers" (click)="collapsed = true" class="nav-link">CUSTOMERS</a>
+            </li>
+          <li class="nav-item">
+              <a routerLink="/contact" (click)="collapsed = true" class="nav-link">CONTACT</a>
+            </li>
+           
+            </ul>
+           
+        </div>
+        <div ngbDropdown class="dropdown">
+          <button ngbDropdownToggle class="phone-icon dropdown-toggle" type="button" id="dropdownMenuButton">
+           </button>
+         <div ngbDropdownMenu class="dropdown-menu" style="margin-top: 20px; width: 350px;" aria-labelledby="dropdownMenuButton">
+            <div class="d1">
+             <span class="ad">10/32-1, Kanimadam</span><br>
+             <span class="ad">Anjugramam Post,</span><br>
+             <span class="ad">Kanyakumari - 629401</span><br>
+             <span class="ad">Tamil Nadu, India</span><br>
+             <span class="ad">Mob.9876543210</span><br>
+              </div>
+             </div>
+          </div>
+       </div>
+    </nav>
+    
+      

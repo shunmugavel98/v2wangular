@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding :0;
+}
+.ct-wrapper {
+    background-color: #ffffff;
+    display: flex;
+}
+.contact-container {
+    margin: 60px auto;
+    width: 80%;
+}
+.contact-container h1 {
+   
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        color: #071d49;
+        font-family: "AvenirLTStd-Book","Arial",sans-serif;
+        text-decoration: underline;
+        text-transform: uppercase;
+     
+}
+.contact-row {
+    display: flex;
+}
+.contact-row label {
+        font-size: 16px;
+        color: #071d49;
+        font-family: "AvenirLTStd-Book","Arial",sans-serif;
+        display: flex;
+}
+.contact-row #user-data {
+    width: 50%;
+    padding-right: 40px;
+    margin-bottom: 1rem;
+}
+
+.form-check{
+    margin-left: 15px;
+}
+.form-check-label{
+   
+    font-size: 16px;
+    color: #071d49;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+}
+.form-check-label .t1{
+    color: #8bb811;
+}
+.form-check-label .t2{
+    color: #071d49;
+}
+.contact-row input
+{
+    border: 0;
+    border-bottom: 0;
+    padding: 10px;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    font-size: 16px;
+    background-color: #f5f1f1;
+    color: #071d49;
+    width: 100%;
+}
+.contact-row textarea{
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    background-color: #f5f1f1;
+}
+    .button {
+        background-color: #133d92;
+        
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        color: #fbfcfd;
+        font-family: "AvenirLTStd-Book","Arial",sans-serif;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button:hover{
+        background-color: #071d49;
+      }
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+.form-group.required label:after {
+    content: "*";
+    color: #ce0037;
+}
+
+.form-field.pd-checkbox span.value label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #d2d2d2 !important;
+}
+ 
+.form-field.pd-checkbox span.value input:checked + label:before {
+    background-color: #071d49;
+}
+.form-field.pd-checkbox span.value {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #071d49;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.form-field.pd-checkbox span.value .term{
+    color: rgb(250, 11, 11);
+
+}
+.form-field.pd-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.contact-info p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #071d49;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    text-align: center;
+}
+.con{
+    background-color: antiquewhite;
+}
+.con .h2{
+    font-size: 16px;
+    color: #071d49;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .contact-container {
+        margin: 80px auto;
+        width: 190%;
+        min-height: 80vh;
+    }
+   .con{
+       margin-top: 90px;
+   }
+    
+}
+    

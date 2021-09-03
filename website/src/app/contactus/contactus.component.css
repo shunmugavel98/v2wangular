@@ -1,0 +1,37 @@
+.c-float-button, .c-float-button span {
+    color: #fff;
+}
+.c-float-button {
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    background-color: #133d92;
+    border-radius: 2px;
+    display: inline-block;
+    padding: .75em 1.25em;
+    font-size: 16px;
+    color: #fff;
+    font-family: "AvenirLTStd-Book","Arial",sans-serif;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 15rem;
+    right: 1rem;
+ 
+    transform: rotate(
+        90deg
+        ) translateX(50%);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+.c-float-button:hover{
+    background-color: #071d49;
+}
+.span{
+    text-decoration: none;
+       font-size: 16px;
+        color: #071d49;
+        font-family: "AvenirLTStd-Book","Arial",sans-serif;
+        background-color: #fff;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       padding-top: 6rem;
+    }
